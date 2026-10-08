@@ -1,0 +1,24 @@
+git cloe https://github.com/Ginger-raccoon25/cs-practic.git cs-practice
+cd cs-practice
+git remote -v
+git config --global  "Ginger"
+git config –global  "enot49en@gmail.com
+mkdir lab02
+touch lab02/NOTES.md
+git add lab02/NOTES.md
+git diff --staged
+git commit -m "Describe local Git states"
+git diff
+git add lab02/NOTES.md
+git diff --staged
+git commit -m "Explain difference between Git and GitHub"
+git add lab02/NOTES.md
+git commit -m "Document used Git commands"
+git push -u origin main
+git switch -c explain-branches
+git commit -am "Explain branches"
+git log --oneline --graph --all
+git merge --no-ff explain-branches -m "Merge branch explain-branches"
+git log --oneline --graph
+git branch -d explain-branches
+git push
